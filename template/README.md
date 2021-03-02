@@ -1,7 +1,5 @@
 # Getting Started with Create React App
 
-### `npx create-react-app project-name --template all`
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

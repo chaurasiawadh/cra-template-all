@@ -1,0 +1,71 @@
+:root {
+--logo_size: 90px;
+--size_0: 0;
+--size_3xs: 0.15rem;
+--size_2xs: 0.3rem;
+--size_xs: 0.5rem;
+--size_sm: 0.875rem;
+--size: 1rem;
+--size_md: 1.166rem;
+--size_lg: 1.3rem;
+--size_xl: 1.5rem;
+--size_2xl: 1.8rem;
+--size_3xl: 2rem;
+--size_4xl: 2.5rem;
+--size_5xl: 3rem;
+
+/* font-size */
+--fsize_sm: 0.857rem; /* 12px h6 */
+--fsize_md: 1rem; /* 14px h4 */
+--fsize_lg: 1.096rem; /* 14px h3 */
+--fsize_xl: 1.230rem; /* 16px h2 */
+--fsize_2xl: 1.571rem; /* 22px h1 */
+
+--cr_brand: #3c3ada;
+--cr_brand_contrast: #fff;
+--cr_sub_brand: #3c3ada;
+--cr_sub_brand_contrast: #fff;
+--cr_sub_sub_brand: #14171a;
+--cr_sub_sub_brand_contrast: #fff;
+
+--chart_verified: #56559a;
+--chart_incomplete: #8382ba;
+--chart_pending: #e2e1ef;
+
+--cr_gray_lightest: #fff;
+--cr_gray_lighter: #f7f9fa;
+--cr_gray_light: #E9ECF0;
+--cr_gray_normal: #d6d6d6;  /*border-color */
+--cr_gray: #7f7f7f;  /* gray text color */
+--cr_gray_dark: #3c444d;
+--cr_gray_darker: #282d33;
+--cr_gray_darkest: #14171a; /* base color */
+
+--cr_primary: #3c3ada;
+--cr_primary_text: #fff;
+--cr_primary_hover: #5957df;
+--cr_primary_hover_text: #fff;
+--cr_primary_focus: #2c2ba3;
+--cr_primary_focus-text: #fff;
+--cr_primary_disabled: #9d9cec;
+
+--cr_success: #3bb273;
+--cr_success_light: #2abf86;
+--cr_warning: #e1bc29;
+--cr_warning_light: #fcf8e9;
+--cr_info: #3d70b2;
+--cr_info_light: #3bf0f7;
+--cr_error: #e15554;
+--cr_error_light: #fceeed;
+--cr_note: #fadc14;
+--cr_note_light: #fef8d0;
+
+--f_light: 300;
+--f_normal: 400;
+--f_bold: 600;
+--f_bolder: 700;
+
+/* calendar */
+--cal_header_color: #a4b2c0;
+--cal_holiday_event: #9aedcd;
+}
