@@ -19,28 +19,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
-        <img src="images/logo.png" alt="Logo" width="80" height="80">
-        </a>
-        
-  <a href="https://github.com/chaurasiawadh/cra-template-all">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">cra-template-all</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    ye templete ek structure hai. jisse ki aap asani se API call kr sakte h aur Rudex ka use kr skte h.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/chaurasiawadh/cra-template-all"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/chaurasiawadh/cra-template-all">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/chaurasiawadh/cra-template-all/issues">Report Bug</a>
     ·
   
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/chaurasiawadh/cra-template-all/issues">Request Feature</a>
   </p>
 </p>
 
