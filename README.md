@@ -10,10 +10,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
 
@@ -207,11 +205,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [stars-url]: https://github.com/chaurasiawadh/cra-template-all/stargazers
 [issues-shield]: https://img.shields.io/github/issues/chaurasiawadh/cra-template-all.svg?style=for-the-badge
 [issues-url]: https://github.com/chaurasiawadh/cra-template-all/issues
-[license-shield]: https://img.shields.io/github/license/chaurasiawadh/cra-template-all.svg?style=for-the-badge
-[license-url]: https://github.com/chaurasiawadh/cra-template-all/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/chaurasiawadh
-[product-screenshot]: images/screenshot.png
 [npm-image]: https://img.shields.io/npm/v/cra-template-all.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/cra-template-all
 [npm-downloads]: https://img.shields.io/npm/dm/cra-template-all.svg?style=flat-square
