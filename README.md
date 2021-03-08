@@ -212,3 +212,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/chaurasiawadh
 [product-screenshot]: images/screenshot.png
+[npm-image]: https://img.shields.io/npm/v/cra-template-all.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/cra-template-all
+[npm-downloads]: https://img.shields.io/npm/dm/cra-template-all.svg?style=flat-square
