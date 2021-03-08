@@ -43,9 +43,12 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [typescript](https://www.npmjs.com/package/typescript)
+* [react](https://www.npmjs.com/package/react)
+* [react-dom](https://www.npmjs.com/package/react-dom)
+* [redux](https://www.npmjs.com/package/redux)
+* [react-redux](https://www.npmjs.com/package/react-redux)
+* [redux-saga](https://www.npmjs.com/package/redux-saga)
 
 
 
@@ -64,10 +67,9 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Create Project using "all" template
-
 . 
    ```sh
-   npx create-react-all --template all
+   npx create-react-app --template all
    ```
 
 <!-- USAGE EXAMPLES -->
@@ -101,7 +103,15 @@ Contributions are what make the open source community such an amazing place to b
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/chaurasia) - chaurasiawadh@gmail.com
+ chaurasiawadh@gmail.com
+ <br>
+ [@chaurasiawadh](https://www.linkedin.com/in/chaurasiawadh) - Linkedin
+ <br>
+ [@chaurasiawadh](https://twitter.com/chaurasiawadh) - Twitter
+ <br>
+ [@chaurasiawadh](https://stackoverflow.com/users/11741753/chaurasia) - Stackoverflow
+ <br>
+ [@chaurasiawadh](https://www.instagram.com/chaurasiawadh) - Instagram
 
 Project Link: [https://github.com/chaurasiawadh/cra-template-all](https://github.com/chaurasiawadh/cra-template-all)
 
@@ -109,7 +119,7 @@ Project Link: [https://github.com/chaurasiawadh/cra-template-all](https://github
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* ABCD pending...
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
