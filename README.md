@@ -69,7 +69,7 @@ This is an example of how to list things you need to use the software and how to
 ### Create Project using "all" template
 . 
    ```sh
-   npx create-react-app --template all
+   npx create-react-app project_name --template all
    ```
 
 <!-- USAGE EXAMPLES -->
@@ -77,14 +77,14 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://github.com/chaurasiawadh/cra-template-all/blob/master/template/README.md)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/chaurasiawadh/cra-template-all/blob/master/template/README.mdissues) for a list of proposed features (and known issues).
 
 
 
