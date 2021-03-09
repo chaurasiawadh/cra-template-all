@@ -11,7 +11,7 @@
   <h3 align="center">cra-template-all</h3>
 
   <p align="center">
-  This temoplate is structure of Project setup. easily API call implement and redux using.
+  This template is structure of Project setup. easily API call implement and redux using.
     <br />
     <a href="https://github.com/chaurasiawadh/cra-template-all"><strong>Explore the docs »</strong></a>
     <br />
