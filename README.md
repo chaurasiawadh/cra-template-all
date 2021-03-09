@@ -79,15 +79,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://github.com/chaurasiawadh/cra-template-all/blob/master/template/README.md)_
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/chaurasiawadh/cra-template-all/blob/master/template/README.mdissues) for a list of proposed features (and known issues).
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
