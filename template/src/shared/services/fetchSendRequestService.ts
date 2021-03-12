@@ -1,21 +1,21 @@
-import ApplicationDetail from './applicationDetail.service';
-import store from '../../config/configureStore';
+import ApplicationDetail from './applicationDetailService';
+// import store from '../../config/configureStore';
 
-class SendRequest {
-  private static _instance: SendRequest = new SendRequest();
+class FetchSendRequest {
+  private static _instance: FetchSendRequest = new FetchSendRequest();
   private appDetail: ApplicationDetail = ApplicationDetail.instance;
   countStartApi = 0;
   countEndApi = 0;
 
   constructor() {
-    if (SendRequest._instance) {
+    if (FetchSendRequest._instance) {
       throw new Error('Use DataService.instance');
     }
-    SendRequest._instance = this;
+    FetchSendRequest._instance = this;
   }
 
-  static get instance(): SendRequest {
-    return SendRequest._instance;
+  static get instance(): FetchSendRequest {
+    return FetchSendRequest._instance;
   }
 
   async MakeAPICall(data: any) {
@@ -52,4 +52,4 @@ class SendRequest {
 
 
 }
-export default SendRequest;
+export default FetchSendRequest;

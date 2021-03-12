@@ -1,4 +1,3 @@
-import moment from 'moment';
 import { ReactNode } from 'react';
 
 export function updateObject<I, P>(oldObject: I, updatedProperties: P): I {
@@ -42,14 +41,6 @@ export const checkValidity = (value: string, rules: any): any => {
   return isValid;
 };
 
-export const getTimeFromSecondsOrMinutes = (seconds: number, type: moment.DurationInputArg2): string => {
-  return moment.utc(moment.duration(seconds, type).asMilliseconds()).format('h:mm a');
-};
-
-export const getMinutesFromDate = (date: Date): any => {
-  return moment.duration(date.getHours() + ':' + date.getMinutes()).asMinutes();
-};
-
 export const propertyBasedSort = (a: any, b: any): number => {
   const aDate: Date = new Date(a.start);
   const bDate: Date = new Date(b.start);
@@ -72,9 +63,6 @@ export const warning = (msg: ReactNode | string): void => {
   // message.warning(msg);
 };
 
-export const getDate = (date: number): string => {
-  return moment(date).format('DD-MM-YYYY');
-};
 export const capitalizeFirstLetter = (str: string): string => {
   return str?.charAt(0)?.toUpperCase() + str?.slice(1);
 };
@@ -107,10 +95,6 @@ export const getDobFromAge = (age: number): Date => {
   const d = new Date();
   const curYear = d.getFullYear();
   return new Date(d.setFullYear(curYear - age));
-};
-
-export const getAgeFromDob = (dob: Date): number => {
-  return dob ? moment().diff(dob, 'years') : 0;
 };
 
 export const array_move = (arr: any[], old_index: number, new_index: number): any => {
@@ -181,6 +165,7 @@ export const checkIsSSo = (): boolean => {
     return false;
   }
 };
+
 export const average = (arr: number[]): number => arr.reduce((p: number, c: number): number => p + c, 0) / arr.length;
 
 export const getBulletPoints = (values: string[]): string => {

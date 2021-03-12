@@ -1,3 +1,3 @@
 /// <reference types="react-scripts" />
 
-declare module 'js-util-methods';
+// declare module 'js-util-methods';

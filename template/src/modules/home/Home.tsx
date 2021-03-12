@@ -1,34 +1,63 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchGetApiCallExample, fetchPostApiCallExample } from '../../store/actions/exampleAction';
-import { getPercentage, formatPriceINR } from 'js-util-methods';
+import { useDispatch, useSelector } from "react-redux";
+import {
+  fetchGetApiCallExample,
+  fetchPostApiCallExample,
+} from "../../store/actions/exampleAction";
+import FetchSendRequest from "../../shared/services/fetchSendRequestService";
+import { GET_JSON_PLACEHOLDER_URL } from "../../shared/constants/urls";
+import { setFormatDateOrTime } from "../../utils/dateTimeUtils";
+
+const requestJSON = {
+  title: "foo",
+  body: "bar",
+  userId: 1,
+};
 
 const HomeComponent = () => {
-    const dispatch = useDispatch();
-    const store = useSelector(state => state);
-    console.log('store', store);
+  const dispatch = useDispatch();
+  const store = useSelector((state) => state);
+  console.log("store", store);
 
-    const getAPICall = () => {
-        dispatch(fetchGetApiCallExample());
-    };
-    const postAPICall = () => {
-        const requestJSON = {
-            title: 'foo',
-            body: 'bar',
-            userId: 1,
-        }
-        dispatch(fetchPostApiCallExample(requestJSON));
-    }
+  const getSagaAPICall = () => {
+    dispatch(fetchGetApiCallExample());
+  };
 
-    return (
-        <div>
-            <h1><a href="https://www.npmjs.com/package/js-util-methods">Using JS-Utility </a> </h1>
-            <h6>getPercentage(2000, 200): {getPercentage(2000, 200)}% </h6>
-            <h6>formatPriceINR(2076200): {formatPriceINR(2076200)} </h6>
-            <h1>This is Home Component</h1>
-            <button onClick={getAPICall} style={{ marginRight: 10 }}>GET API CALL</button>
-            <button onClick={postAPICall}>POST API CALL</button>
-        </div>
-    )
-}
+  const postSagaAPICall = () => {
+    dispatch(fetchPostApiCallExample(requestJSON));
+  };
+
+  const getNormalAPICall = async () => {
+    const data = await FetchSendRequest.instance.MakeAPICall({
+      url: GET_JSON_PLACEHOLDER_URL,
+    });
+    console.log("getNormalAPICall", data);
+  };
+
+  const postNormalAPICall = async () => {
+    const data = await FetchSendRequest.instance.MakeAPICall({
+      url: GET_JSON_PLACEHOLDER_URL,
+      body: requestJSON,
+    });
+    console.log("postNormalAPICall", data);
+  };
+
+  return (
+    <div>
+      <h1>This is Home Component</h1>
+      <button onClick={getNormalAPICall}>
+        GET NORMAL API CALL
+      </button> <br /> <br />
+      <button onClick={postNormalAPICall}>
+        POST NORMAL API CALL
+      </button> <br /> <br />
+      <button onClick={getSagaAPICall} style={{ marginRight: 10 }}>
+        GET SAGA API CALL
+      </button>{" "}
+      <br /> <br />
+      <button onClick={postSagaAPICall}>POST SAGA API CALL</button>
+      <h1>Date {setFormatDateOrTime("2021-01-17")}</h1>
+    </div>
+  );
+};
 
 export default HomeComponent;

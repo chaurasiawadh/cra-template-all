@@ -1,6 +1,6 @@
 import { AnyAction, Reducer } from 'redux';
 import actionTypes from '../types/exampleTypes';
-import { updateObject } from '../../utils/utility';
+// import { updateObject } from '../../utils/utility';
 
 const initialState = {
   fakeDataList: [],

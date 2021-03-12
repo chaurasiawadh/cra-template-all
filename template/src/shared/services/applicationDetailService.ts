@@ -3,7 +3,6 @@ class ApplicationDetail {
 
   private static _instance: ApplicationDetail = new ApplicationDetail();
   private static userDetail: any;
-  private static hospitalDetail: any;
 
   constructor() {
     if (ApplicationDetail._instance) {

@@ -1,10 +1,10 @@
 import { takeLatest, put } from 'redux-saga/effects';
 import { GET_JSON_PLACEHOLDER_URL, POST_JSON_PLACEHOLDER_URL } from '../../shared/constants/urls';
 import { fetchGetApiDataExample, fetchPostApiDataExample } from '../actions/exampleAction';
-import SendRequest from '../../shared/services/sendRequest.service';
+import FetchSendRequest from '../../shared/services/fetchSendRequestService';
 import actionTypes from '../types/exampleTypes';
 
-const sendRequest = SendRequest.instance;
+const sendRequest = FetchSendRequest.instance;
 
 function* getAPICallSagaExample(): any {
   const response: any = yield sendRequest.MakeAPICall({ url: GET_JSON_PLACEHOLDER_URL });
