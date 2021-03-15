@@ -43,14 +43,14 @@ This section should list any major frameworks that you built your project using.
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+<!-- ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps. -->
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+<!-- This is an example of how to list things you need to use the software and how to install them. -->
 * npm
   ```sh
   npm install npm@latest -g
@@ -65,9 +65,15 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources. -->
 
 _For more examples, please refer to the [Documentation](https://github.com/chaurasiawadh/cra-template-all/blob/master/template/README.md)_
+
+
+
+![Optional Text](./screenshot/first.png)
+![Optional Text](./screenshot/second.png)
+![Optional Text](./screenshot/third.png)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -99,8 +105,8 @@ Project Link: [https://github.com/chaurasiawadh/cra-template-all](https://github
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* ABCD pending...
+<!-- ## Acknowledgements
+* ABCD pending... -->
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
