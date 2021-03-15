@@ -1,9 +1,7 @@
-import ApplicationDetail from './applicationDetailService';
-// import store from '../../config/configureStore';
 
 class FetchSendRequest {
   private static _instance: FetchSendRequest = new FetchSendRequest();
-  private appDetail: ApplicationDetail = ApplicationDetail.instance;
+  // private appDetail: ApplicationDetail = ApplicationDetail.instance;
   countStartApi = 0;
   countEndApi = 0;
 
@@ -49,7 +47,5 @@ class FetchSendRequest {
     }
     return promise;
   }
-
-
 }
 export default FetchSendRequest;

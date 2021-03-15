@@ -1,6 +1,6 @@
-
 .main-container {
   background-color: white;
+  padding-bottom: 1rem;
 }
 
 .header {
@@ -9,7 +9,7 @@
   padding-left: 16px;
 }
 
-.createtemplate-box{
+.createtemplate-box {
   padding-left: 16px;
 }
 
@@ -18,8 +18,8 @@
 }
 
 .write-code {
-  background-color: #F7F7F7;
-  padding: 10px;
+  background-color: #f7f7f7;
+  padding: 12px;
 }
 
 .api-box {
@@ -31,4 +31,26 @@
   top: 0;
   background-color: aqua;
   padding: 16px;
+}
+
+.github-link {
+  margin-left: 1rem;
+}
+
+.point {
+  display: list-item;
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    width: fit-content;
+  }
+  .api-box {
+    display: block;
+  }
+  .github-link {
+    display: flex;
+    margin: 10px;
+    margin-top: 20px;
+  }
 }

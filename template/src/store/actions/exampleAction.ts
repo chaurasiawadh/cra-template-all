@@ -1,6 +1,6 @@
-import { Action } from '../models/action.model';
-import { updateAction } from '../../utils/utility';
-import actionTypes from '../types/exampleTypes';
+import { Action } from 'src/store/models/action.model';
+import { updateAction } from 'src/utils/utility';
+import actionTypes from 'src/store/types/exampleTypes';
 
 export const fetchGetApiCallExample = (): Action<any> => {
   return updateAction(actionTypes.GET_API_CALL);

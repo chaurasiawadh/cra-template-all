@@ -1,5 +1,5 @@
-import React, { ReactElement } from 'react';
-import { checkIsSSo } from '../../utils/utility';
+import { ReactElement } from 'react';
+import { checkIsSSo } from 'src/utils/utility';
 import Spinner from './Spinner';
 
 const NotFoundComponent = (): ReactElement => {

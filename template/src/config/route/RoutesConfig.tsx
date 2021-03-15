@@ -1,17 +1,17 @@
 import { lazy } from 'react';
-import { RouteType } from '../../shared/models/route.models';
+import { RouteType } from 'src/shared/models/route.models';
 
 const RoutesConfig: RouteType = {
   publicRoutes: [
     {
       path: '/login',
       isPublic: true,
-      component: lazy((): any => import('../../modules/login/Login')),
+      component: lazy((): any => import('src/modules/login/Login')),
     },
     {
       path: '/',
       isPublic: true,
-      component: lazy((): any => import('../../modules/home/Home')),
+      component: lazy((): any => import('src/modules/home/Home')),
     },
   ],
   privateRoutes: [
@@ -29,7 +29,7 @@ const RoutesConfig: RouteType = {
         {
           path: '*',
           isPublic: false,
-          component: lazy((): any => import('../../shared/components/NotFoundComponent')),
+          component: lazy((): any => import('src/shared/components/NotFoundComponent')),
         },
       ],
     },

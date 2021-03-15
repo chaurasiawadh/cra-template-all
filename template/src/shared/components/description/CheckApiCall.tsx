@@ -3,9 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   fetchGetApiCallExample,
   fetchPostApiCallExample,
-} from "../../../store/actions/exampleAction";
-import { GET_JSON_PLACEHOLDER_URL } from "../../constants/urls";
-import FetchSendRequest from "../../services/fetchSendRequestService";
+} from "src/store/actions/exampleAction";
+import { GET_JSON_PLACEHOLDER_URL } from "src/shared/constants/urls";
+import FetchSendRequest from "src/shared/services/fetchSendRequestService";
 
 const requestJSON = {
   title: "foo",
@@ -53,56 +53,47 @@ const CheckApiCall = () => {
     }
   };
   return (
-    <div style={{paddingLeft: 16 }}>
-        <h4 className="fix-header">Normal API call</h4>
+    <div style={{ paddingLeft: 16 }}>
+      <h4 className="fix-header">Normal API call</h4>
       {isSuccess && <p>Normal API call success. go to Network</p>}
-      
       <div className="api-box">
-      <button onClick={getNormalAPICall}>GET NORMAL API CALL</button>
-      <pre>
-         <code>
-         {`  const data = await FetchSendRequest.instance.MakeAPICall({
+        <button onClick={getNormalAPICall}>GET NORMAL API CALL</button>
+        <pre>
+          <code>
+            {`  const data = await FetchSendRequest.instance.MakeAPICall({
       url: GET_JSON_PLACEHOLDER_URL,
     });`}
-         </code>
-      </pre>
+          </code>
+        </pre>
       </div>
       <br /> <br />
-
-      <div  className="api-box">
-      <button onClick={postNormalAPICall}>
-        POST NORMAL API CALL
-      </button> 
-      <pre>
-         <code>
-         {`  const data = await FetchSendRequest.instance.MakeAPICall({
+      <div className="api-box">
+        <button onClick={postNormalAPICall}>POST NORMAL API CALL</button>
+        <pre>
+          <code>
+            {`  const data = await FetchSendRequest.instance.MakeAPICall({
       url: GET_JSON_PLACEHOLDER_URL,
       body: requestJSON,
     });`}
-         </code>
-      </pre>
+          </code>
+        </pre>
       </div>
       <br /> <br />
-      
       <h4 className="fix-header">Saga API call</h4>
-     <div  className="api-box">
-      <button onClick={getSagaAPICall} style={{ marginRight: 10 }}>
-        GET SAGA API CALL
-      </button>
-      <pre>
-         <code>
-         {` dispatch(fetchGetApiCallExample()); `}
-         </code>
-      </pre>
-     </div>
+      <div className="api-box">
+        <button onClick={getSagaAPICall} style={{ marginRight: 10 }}>
+          GET SAGA API CALL
+        </button>
+        <pre>
+          <code>{` dispatch(fetchGetApiCallExample()); `}</code>
+        </pre>
+      </div>
       <br /> <br />
-      <div  className="api-box">
-      <button onClick={postSagaAPICall}>POST SAGA API CALL</button>
-      <pre>
-         <code>
-         {` dispatch(fetchPostApiCallExample(requestJSON)); `}
-         </code>
-      </pre>
+      <div className="api-box">
+        <button onClick={postSagaAPICall}>POST SAGA API CALL</button>
+        <pre>
+          <code>{` dispatch(fetchPostApiCallExample(requestJSON)); `}</code>
+        </pre>
       </div>
     </div>
   );

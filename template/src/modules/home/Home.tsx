@@ -1,18 +1,16 @@
-import CreateTemplate from "../../shared/components/description/CreateTemplate";
-import FolderStructure from "../../shared/components/description/FolderStructure";
-import CheckApiCall from "../../shared/components/description/CheckApiCall";
-import UtilityExample from "../../shared/components/description/UtilityExample";
+import CreateTemplate from "src/shared/components/description/CreateTemplate";
+import FolderStructure from "src/shared/components/description/FolderStructure";
+import CheckApiCall from "src/shared/components/description/CheckApiCall";
+import UtilityExample from "src/shared/components/description/UtilityExample";
 
 const HomeComponent = () => {
-
-
   return (
-    <div>
-      <CreateTemplate/>
-      <FolderStructure/>
-      <CheckApiCall/>
-      <UtilityExample/>
-    </div>
+    <>
+      <CreateTemplate />
+      <FolderStructure />
+      <CheckApiCall />
+      <UtilityExample />
+    </>
   );
 };
 

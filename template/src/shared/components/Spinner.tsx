@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import { ReactElement } from 'react';
 
 const Spinner = ({ height }: any): ReactElement => {
   return (

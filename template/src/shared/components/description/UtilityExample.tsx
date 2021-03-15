@@ -1,5 +1,5 @@
-import { setFormatDateOrTime } from "../../../utils/dateTimeUtils";
-import { DATE_FORMAT_LIST } from "../../constants/common";
+import { setFormatDateOrTime } from "src/utils/dateTimeUtils";
+import { DATE_FORMAT_LIST } from "src/shared/constants/common";
 
 const currentDate: Date = new Date();
 const UtilityExample = () => {

@@ -1,7 +1,7 @@
 import { takeLatest, put } from 'redux-saga/effects';
-import { GET_JSON_PLACEHOLDER_URL, POST_JSON_PLACEHOLDER_URL } from '../../shared/constants/urls';
+import { GET_JSON_PLACEHOLDER_URL, POST_JSON_PLACEHOLDER_URL } from 'src/shared/constants/urls';
 import { fetchGetApiDataExample, fetchPostApiDataExample } from '../actions/exampleAction';
-import FetchSendRequest from '../../shared/services/fetchSendRequestService';
+import FetchSendRequest from 'src/shared/services/fetchSendRequestService';
 import actionTypes from '../types/exampleTypes';
 
 const sendRequest = FetchSendRequest.instance;

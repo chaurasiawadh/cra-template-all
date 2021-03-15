@@ -1,16 +1,16 @@
 const FolderStructure = () => {
   return (
     <div className="folderStructure-box">
-      <h4 className="fix-header">File Structure</h4>
+      <h4 className="fix-header">Folder &  File Structure</h4>
 
       <div style={{ marginLeft: 30 }}>
-        <p style={{ display: "list-item" }}>
+        <p className="point">
           Folder name: start with small letter.
         </p>
-        <p style={{ display: "list-item" }}>
+        <p className="point">
           File name(ts file): start with small letter.
         </p>
-        <p style={{ display: "list-item" }}>
+        <p className="point">
           Component name(tsx file): start with capital letter.
         </p>
       </div>

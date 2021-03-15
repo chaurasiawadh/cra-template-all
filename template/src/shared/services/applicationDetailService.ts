@@ -15,10 +15,6 @@ class ApplicationDetail {
     return ApplicationDetail._instance;
   }
 
-  private setUserDetail(userDetail: any): void {
-    ApplicationDetail.userDetail = userDetail;
-  }
-
   getUserDetail(): any {
     return ApplicationDetail.userDetail;
   }
