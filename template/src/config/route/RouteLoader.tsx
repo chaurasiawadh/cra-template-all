@@ -2,6 +2,7 @@ import React, { ReactElement, Suspense } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import PublicRoutes from './PublicRoutes';
 import Spinner from '../../shared/components/Spinner';
+import Layout from '../../layout/Layout';
 
 const RouteLoader = (): ReactElement | null => {
 
@@ -9,10 +10,17 @@ const RouteLoader = (): ReactElement | null => {
     <React.Fragment>
       <Router basename="/">
         <Suspense fallback={<Spinner />}>
+          {/* {isAccessToken ? 
+           <Layout>
+           <PublicRoutes />
+           </Layout>
+           :
+           <PublicRoutes />
+          } */}
+          
+          <Layout>
           <PublicRoutes />
-          {/* <Main>
-              <PrivateRoutes />
-            </Main> */}
+          </Layout>
         </Suspense>
       </Router>
     </React.Fragment>

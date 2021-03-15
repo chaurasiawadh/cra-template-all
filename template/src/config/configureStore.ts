@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, compose, Store } from 'redux';
 import createSagaMiddleware from 'redux-saga';
-import { RootState, createRootReducer, rootSaga } from '../store';
+import { RootState, createRootReducer, rootSaga } from '../../src/store';
 
 export default function configureStore(initialState: RootState): Store<RootState> {
   // create the composing function for our middlewares
