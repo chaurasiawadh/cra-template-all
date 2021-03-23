@@ -1,23 +1,20 @@
-import { combineReducers } from 'redux';
-import apiCallSaga from './sagas/apiCallSaga';
-import { fork, all } from 'redux-saga/effects';
-import exampleReducer from './reducer/exampleReducer'
+import { combineReducers, Reducer } from "redux";
+import apiCallSaga from "./sagas/apiCallSaga";
+import { fork, all } from "redux-saga/effects";
+import exampleReducer from "./reducer/exampleReducer";
+import { FakeDataModal } from "./models/actionModel";
 
 export interface RootState {
   // add models
-  homeData: any
+  homeData: FakeDataModal;
 }
 
-export const createRootReducer = (): any =>
+export const createRootReducer = (): Reducer<any> =>
   combineReducers({
-    // add reducer file
     // userDetails: userDetailsReducerFileImport
-    homeData: exampleReducer
+    homeData: exampleReducer,
   });
 
 export function* rootSaga(): Generator {
-  yield all(
-    [
-      fork(apiCallSaga),
-    ]);
+  yield all([fork(apiCallSaga)]);
 }

@@ -1,11 +1,12 @@
 {
   "name": "cra-template-all",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "keywords": [
     "react",
     "react-router",
     "react-redux",
     "redux-saga",
+    "redux",
     "create-react-app",
     "template",
     "utils"

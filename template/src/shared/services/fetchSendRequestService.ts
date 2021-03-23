@@ -1,3 +1,4 @@
+import { RequestApi } from "../models/apiModels";
 
 class FetchSendRequest {
   private static _instance: FetchSendRequest = new FetchSendRequest();
@@ -7,7 +8,7 @@ class FetchSendRequest {
 
   constructor() {
     if (FetchSendRequest._instance) {
-      throw new Error('Use DataService.instance');
+      throw new Error("Use DataService.instance");
     }
     FetchSendRequest._instance = this;
   }
@@ -16,29 +17,33 @@ class FetchSendRequest {
     return FetchSendRequest._instance;
   }
 
-  async MakeAPICall(data: any) {
+  async MakeAPICall(requestJSON: RequestApi) {
     let requestBody = {};
 
-    if (data && data.isLoader !== false) {
+    if (requestJSON && requestJSON.isLoader !== false) {
       this.countStartApi += 1;
       // store.dispatch({ type: 'REQUEST', status: 'REQUESTED' });
     }
 
-    if (data && data.body) {
-      requestBody = data.body;
+    if (requestJSON && requestJSON.body) {
+      requestBody = requestJSON.body;
     }
 
-    const promise = await fetch(data.url, {
-      method: data.body ? 'POST' : 'GET',
+    const promise = await fetch(requestJSON.url, {
+      method: requestJSON.method
+        ? requestJSON.method
+        : requestJSON.body
+        ? "POST"
+        : "GET",
       headers: new Headers({
-        AccessToken: '',   //cookies.get('access_token'),
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
+        AccessToken: "", //cookies.get('access_token'),
+        Accept: "application/json",
+        "Content-Type": "application/json",
       }),
-      body: data.body ? JSON.stringify(requestBody) : null
-    }).then(response => response.json());
+      body: requestJSON.body ? JSON.stringify(requestBody) : null,
+    }).then((response) => response.json());
     if (promise) {
-      if (data && data.isLoader !== false) {
+      if (requestJSON && requestJSON.isLoader !== false) {
         this.countEndApi += 1;
         if (this.countStartApi === this.countEndApi) {
           // store.dispatch({ type: 'REQUEST', status: 'REQUEST_FULFILLED' });

@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { RouteType } from 'src/shared/models/route.models';
+import { RouteType } from 'src/shared/models/routeModels';
 
 const RoutesConfig: RouteType = {
   publicRoutes: [
@@ -21,7 +21,7 @@ const RoutesConfig: RouteType = {
       isExact: true,
       subRoutes: [
         {
-          path: 'path name who show in URL',
+          path: 'path_name_who_show_in_URL',
           isPublic: false,
           isExact: false,
           // component: lazy((): any => import('component path')),

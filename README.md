@@ -71,9 +71,9 @@ _For more examples, please refer to the [Documentation](https://github.com/chaur
 
 
 
-![Optional Text](./screenshot/first.png)
-![Optional Text](./screenshot/second.png)
-![Optional Text](./screenshot/third.png)
+![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/first.png)
+![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/second.png)
+![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/third.png)
 
 <!-- CONTRIBUTING -->
 ## Contributing

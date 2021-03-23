@@ -50,5 +50,4 @@
   "include": [
     "src"
   ],
-  "extends": "./base-tsconfig.json"
 }
