@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { RouteConfig } from 'src/shared/models/route.models';
+import { RouteConfig } from 'src/shared/models/routeModels';
 
 const PrivateRoutes = (): ReactElement => {
 

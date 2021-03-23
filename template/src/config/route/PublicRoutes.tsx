@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import { RouteConfig } from 'src/shared/models/route.models';
+import { RouteConfig } from 'src/shared/models/routeModels';
 import RoutesConfig from './RoutesConfig';
 
 const PublicRoutes = (): ReactElement => {

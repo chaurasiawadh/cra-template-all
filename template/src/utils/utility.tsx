@@ -11,7 +11,7 @@ export function updateAction<T>(type: string, payload?: T): { type: string, payl
   return { type, payload };
 }
 
-export const checkValidity = (value: string, rules: any): any => {
+export const checkValidity = (value: string, rules: any): boolean => {
   let isValid = true;
   if (!rules) {
     return true;
@@ -97,7 +97,7 @@ export const getDobFromAge = (age: number): Date => {
   return new Date(d.setFullYear(curYear - age));
 };
 
-export const array_move = (arr: any[], old_index: number, new_index: number): any => {
+export const array_move = (arr: any[], old_index: number, new_index: number): any[] => {
   if (new_index >= arr.length) {
     let k = new_index - arr.length + 1;
     while (k--) {
@@ -108,13 +108,13 @@ export const array_move = (arr: any[], old_index: number, new_index: number): an
   return arr;
 };
 
-export const CalculateFinalPrice = (price: number, discountPercent: number): number => {
+export const calculateFinalPrice = (price: number, discountPercent: number): number => {
   discountPercent = discountPercent < 0 || discountPercent === undefined ? 0 : discountPercent > 100 ? 100 : discountPercent;
   price = price === undefined ? 0 : price;
   return Math.round((price - ((discountPercent / 100) * price)) || 0);
 };
 
-export const CalculateDiscountPercentage = (price: number, discountedPrice: number): number => {
+export const calculateDiscountPercentage = (price: number, discountedPrice: number): number => {
   price = price < 0 || price === undefined ? 0 : price;
   discountedPrice = discountedPrice === undefined ? 0 : discountedPrice;
   return Math.round(((price - discountedPrice) / price) * 100 || 0);
