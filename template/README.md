@@ -1,6 +1,57 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![NPM Version][npm-shield]][npm-url]
+[![Downloads Stats][npm-downloads]][npm-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<p align="center">
+  <h3 align="center">cra-template-all</h3>
+
+  <p align="center">
+  This template is structure of Project setup. easily API call implement and redux using. Lightweight, usefull, tiny size
+    <br />
+    <a href="https://github.com/chaurasiawadh/cra-template-all"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/chaurasiawadh/cra-template-all">View Demo</a>
+    ·
+    <a href="https://github.com/chaurasiawadh/cra-template-all/issues">Report Bug</a>
+    ·
+  
+    <a href="https://github.com/chaurasiawadh/cra-template-all/issues">Request Feature</a>
+  </p>
+</p>
+
+## About The Project
+[npx create-react-app project_name --template all](https://github.com/chaurasiawadh/cra-template-all)
+
+
+### Built With
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [typescript](https://www.npmjs.com/package/typescript)
+* [react](https://www.npmjs.com/package/react)
+* [react-dom](https://www.npmjs.com/package/react-dom)
+* [redux](https://www.npmjs.com/package/redux)
+* [react-redux](https://www.npmjs.com/package/react-redux)
+* [redux-saga](https://www.npmjs.com/package/redux-saga)
+
+
+### Prerequisites
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Create Project using "all" template
+. 
+   ```sh
+   npx create-react-app project_name --template all
+   ```
 
 ## Available Scripts
 
@@ -39,8 +90,56 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_For more examples, please refer to the [Documentation](https://github.com/chaurasiawadh/cra-template-all/blob/master/template/README.md)_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/first.png)
+![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/second.png)
+![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/third.png)
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/branch_name`)
+3. Commit your Changes (`git commit -m 'add some branch_name'`)
+4. Push to the Branch (`git push origin feature/branch_name`)
+5. Open a Pull Request
+
+
+<!-- CONTACT -->
+## Contact
+
+ chaurasiawadh@gmail.com
+ <br>
+ [@chaurasiawadh](https://www.linkedin.com/in/chaurasiawadh) - Linkedin
+ <br>
+ [@chaurasiawadh](https://twitter.com/chaurasiawadh) - Twitter
+ <br>
+ [@chaurasiawadh](https://stackoverflow.com/users/11741753/chaurasia) - Stackoverflow
+ <br>
+ [@chaurasiawadh](https://www.instagram.com/chaurasiawadh) - Instagram
+
+Project Link: [https://github.com/chaurasiawadh/cra-template-all](https://github.com/chaurasiawadh/cra-template-all)
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/chaurasiawadh/cra-template-all.svg?style=for-the-badge
+[contributors-url]: https://github.com/chaurasiawadh/cra-template-all/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/chaurasiawadh/cra-template-all.svg?style=for-the-badge
+[forks-url]: https://github.com/chaurasiawadh/cra-template-all/network/members
+[stars-shield]: https://img.shields.io/github/stars/chaurasiawadh/cra-template-all.svg?style=for-the-badge
+[stars-url]: https://github.com/chaurasiawadh/cra-template-all/stargazers
+[issues-shield]: https://img.shields.io/github/issues/chaurasiawadh/cra-template-all.svg?style=for-the-badge
+
+[issues-url]: https://github.com/chaurasiawadh/cra-template-all/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/chaurasiawadh
+
+[npm-shield]: https://img.shields.io/npm/v/cra-template-all.svg?style=for-the-badge
+[npm-url]: https://npmjs.org/package/cra-template-all
+[npm-downloads]: https://img.shields.io/npm/dm/cra-template-all.svg?style=for-the-badge
