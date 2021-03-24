@@ -7,6 +7,7 @@ const Layout = ({ children }: RouteConfig): ReactElement => {
     <section className="main-container">
       <Header />
       {children}
+      <p className="footer-right">@Chaurasia</p>
     </section>
   );
 };

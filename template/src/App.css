@@ -41,6 +41,20 @@
   display: list-item;
 }
 
+.footer-right {
+  background: #000;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   .main-container {
     width: fit-content;
