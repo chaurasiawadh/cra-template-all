@@ -20,7 +20,6 @@
     ·
     <a href="https://github.com/chaurasiawadh/cra-template-all/issues">Report Bug</a>
     ·
-  
     <a href="https://github.com/chaurasiawadh/cra-template-all/issues">Request Feature</a>
   </p>
 </p>
