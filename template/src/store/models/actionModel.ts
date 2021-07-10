@@ -11,10 +11,10 @@ export interface GetFakeDataList {
 }
 
 export interface PostFakeDataObject {
-  body: string;
-  id?: number;
-  title: string;
-  userId: number;
+body: string,
+id?: number,
+title: string,
+userId: number
 }
 
 export interface FakeDataModal {

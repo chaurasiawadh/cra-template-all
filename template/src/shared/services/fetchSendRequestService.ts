@@ -8,7 +8,7 @@ class FetchSendRequest {
 
   constructor() {
     if (FetchSendRequest._instance) {
-      throw new Error("Use DataService.instance");
+      throw new Error('Use DataService.instance');
     }
     FetchSendRequest._instance = this;
   }
@@ -30,18 +30,14 @@ class FetchSendRequest {
     }
 
     const promise = await fetch(requestJSON.url, {
-      method: requestJSON.method
-        ? requestJSON.method
-        : requestJSON.body
-        ? "POST"
-        : "GET",
+      method: requestJSON.method ? requestJSON.method : requestJSON.body ? 'POST' : 'GET',
       headers: new Headers({
-        AccessToken: "", //cookies.get('access_token'),
-        Accept: "application/json",
-        "Content-Type": "application/json",
+        AccessToken: '',   //cookies.get('access_token'),
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
       }),
-      body: requestJSON.body ? JSON.stringify(requestBody) : null,
-    }).then((response) => response.json());
+      body: requestJSON.body ? JSON.stringify(requestBody) : null
+    }).then(response => response.json());
     if (promise) {
       if (requestJSON && requestJSON.isLoader !== false) {
         this.countEndApi += 1;

@@ -5,9 +5,8 @@ import Header from './header/Header';
 const Layout = ({ children }: RouteConfig): ReactElement => {
   return (
     <section className="main-container">
-      <Header />
-      {children}
-      <p className="footer-right">@Chaurasia</p>
+        <Header />
+        {children}
     </section>
   );
 };

@@ -11,7 +11,7 @@
   <h3 align="center">cra-template-all</h3>
 
   <p align="center">
-  This template is structure of Project setup. easily API call implement and redux using. Lightweight, usefull, tiny size
+  This template is structure of Project setup. easily API call implement and redux using. Lightweight, useful, tiny size
     <br />
     <a href="https://github.com/chaurasiawadh/cra-template-all"><strong>Explore the docs »</strong></a>
     <br />
@@ -98,17 +98,6 @@ _For more examples, please refer to the [Documentation](https://github.com/chaur
 ![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/first.png)
 ![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/second.png)
 ![Optional Text](https://github.com/chaurasiawadh/cra-template-all/blob/master/screenshot/third.png)
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/branch_name`)
-3. Commit your Changes (`git commit -m 'add some branch_name'`)
-4. Push to the Branch (`git push origin feature/branch_name`)
-5. Open a Pull Request
 
 
 <!-- CONTACT -->
